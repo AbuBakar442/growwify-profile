@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f3f4f6, #d1d5db);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-card {
+    background: black;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 350px;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.subtitle {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 20px;
+    border-left: 4px solid #3b82f6;
+    padding-left: 10px;
+}
+.about-text {
+    color: #bbb;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    background: #3b82f6;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.btn:hover {
+    background: #2563eb;
+}
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f3f4f6;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.social-btn:hover {
+    background: #e5e7eb;
+}
+.social-btn i {
+    font-size: 18px;
+}
