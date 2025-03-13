@@ -1,3 +1,3 @@
 git add .
-git commit -m "Added profile page"
+git commit -m "growwify-profile"
 git push origin main
